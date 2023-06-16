@@ -13,16 +13,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #0a0a0a, #3f454e);
+    background: #454545;
 }
 
 .calculator{
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     padding: 20px;
-    border-radius: 16px;
+    border-radius: 30px;
     background: solid;
-    background-color: #c0bcbc;
-    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+    background-color: #a09e9e;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 10);
 
 }
 
@@ -31,9 +31,10 @@ input{
     border: none;
     padding: 24px;
     margin: 10px;
+    border-radius: 15px;
     background: solid;
     background-color: #ffffff;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
     font-size: 40px;
     text-align: right;
     cursor: pointer;
@@ -56,6 +57,12 @@ button{
     font-size: 20px;
     box-shadow: 1px 1px 8px rgba(22, 21, 21, 0.1);
     cursor: pointer;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+button:hover{
+    background-color: #403d3d;
+    color: #ffffff;
+    transform: scale(110%);
 }
 
 .equalBtn{
@@ -64,8 +71,19 @@ button{
     border-radius: 50px;
 
 }
+.equalBtn:hover{
+    background-color: #ff3700;
+    
+    
+
+}
+
 
 .operator{
-    color: #adff8d;
-    background-color: rgb(29, 26, 51);
+    color: #acf87a;
+    background-color: rgb(44, 26, 51);
+}
+.operator:hover{
+    color: #f2f2f2;
+    background-color: rgb(110, 95, 221);
 }
